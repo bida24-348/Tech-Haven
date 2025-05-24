@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printers | TechHaven</title>
+    <link rel="stylesheet" href="printer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="https://via.placeholder.com/40x40" alt="TechHaven Logo">
+                <h1>TechHaven</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="laptop.html">Laptops</a></li>
+                    <li><a href="printers.html" class="active">Printers</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Header -->
+    <section class="category-header">
+        <div class="container">
+            <h2>Printers</h2>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Printers</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Printer Categories -->
+    <div class="container">
+        <div class="printer-categories">
+            <a href="#" class="active">All Printers</a>
+            <a href="#">Inkjet</a>
+            <a href="#">Laser</a>
+            <a href="#">All-in-One</a>
+            <a href="#">Photo Printers</a>
+            <a href="#">Wireless</a>
+            <a href="#">Commercial</a>
+            <a href="#">3D Printers</a>
+        </div>
+    </div>
+
+    <!-- Printers Controls -->
+    <div class="container">
+        <div class="category-controls">
+            <div class="view-options">
+                <button class="active" id="grid-view"><i class="fas fa-th"></i></button>
+                <button id="list-view"><i class="fas fa-list"></i></button>
+            </div>
+        </div>
+
+        <!-- Printers Container -->
+        <div class="printers-container">
+            <div class="printer-grid" id="printers-view">
+                <!-- Printer 1 -->
+                <div class="printer-card">
+                    <img src="printer1.avif" alt="Pro Inkjet Printer">
+                    <h3>Pro Inkjet Printer X900</h3>
+                    <div class="specs">
+                        <span>Print/Scan/Copy/Fax</span>
+                        <span>Color Printing</span>
+                        <span>Wireless Connectivity</span>
+                        <span>Up to 22 ppm</span>
+                    </div>
+                    <div class="rating">★★★★☆ (47)</div>
+                    <p class="price">P5, 999.00 <span class="old-price">P6, 499.00</span></p>
+                    <p class="description">The Pro Inkjet X900 delivers vibrant color prints with professional quality. With wireless connectivity and automatic duplex printing, it's perfect for home offices and small businesses.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Printer 2 -->
+                <div class="printer-card">
+                    <img src="printer3.avif" alt="Office Laser Pro">
+                    <h3>Office Laser Pro L500</h3>
+                    <div class="specs">
+                        <span>Monochrome Laser</span>
+                        <span>Print Speed: 35 ppm</span>
+                        <span>Ethernet & Wireless</span>
+                        <span>High-yield toner option</span>
+                    </div>
+                    <div class="rating">★★★★★ (62)</div>
+                    <p class="price">P8, 799.00</p>
+                    <p class="description">Reliable monochrome laser printer with fast printing speeds and low cost per page. Ideal for busy offices with high-volume printing needs.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Printer 3 -->
+                <div class="printer-card">
+                    <img src="printer4.jpg" alt="Smart All-in-One">
+                    <h3>Smart All-in-One M200</h3>
+                    <div class="specs">
+                        <span>Print/Scan/Copy</span>
+                        <span>Color Inkjet</span>
+                        <span>Mobile Printing</span>
+                        <span>Compact Design</span>
+                    </div>
+                    <div class="rating">★★★★☆ (38)</div>
+                    <p class="price">P3, 299.00 <span class="old-price">P3, 799.00</span></p>
+                    <p class="description">Compact and affordable all-in-one printer with mobile printing capabilities. Perfect for students and home users with limited space.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Printer 4 -->
+                <div class="printer-card">
+                    <img src="printer5.jpg" alt="Photo Print Pro">
+                    <h3>Photo Print Pro P800</h3>
+                    <div class="specs">
+                        <span>Professional Photo Printing</span>
+                        <span>6-color ink system</span>
+                        <span>Print up to 13" x 19"</span>
+                        <span>Wireless & Ethernet</span>
+                    </div>
+                    <div class="rating">★★★★★ (29)</div>
+                    <p class="price">P12, 499.00</p>
+                    <p class="description">Professional-grade photo printer that produces gallery-quality prints with stunning color accuracy and detail. Perfect for photographers and artists.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Printer 5 -->
+                <div class="printer-card">
+                    <img src="printer6.jpg" alt="Color Laser Elite">
+                    <h3>Color Laser Elite C600</h3>
+                    <div class="specs">
+                        <span>Color Laser Printer</span>
+                        <span>Print Speed: 30 ppm</span>
+                        <span>Automatic Duplex</span>
+                        <span>High-capacity toners</span>
+                    </div>
+                    <div class="rating">★★★★☆ (41)</div>
+                    <p class="price">P15, 999.00 <span class="old-price">P17, 299.00</span></p>
+                    <p class="description">Business-class color laser printer with professional results and low operating costs. Ideal for offices that need vibrant color documents.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Printer 6 -->
+                <div class="printer-card">
+                    <img src="printer7.jpg" alt="Mobile Print Jet">
+                    <h3>Mobile Print Jet MP100</h3>
+                    <div class="specs">
+                        <span>Portable Design</span>
+                        <span>Battery Powered</span>
+                        <span>Bluetooth & USB</span>
+                        <span>2.5" x 3.5" prints</span>
+                    </div>
+                    <div class="rating">★★★★☆ (34)</div>
+                    <p class="price">P4, 599.00</p>
+                    <p class="description">Ultra-portable printer that fits in your bag. Print photos and documents anywhere with Bluetooth connectivity and long battery life.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Printer 7 -->
+                <div class="printer-card">
+                    <img src="printer-1.jpg" alt="3D Creator Pro">
+                    <h3>3D Creator Pro 3DP200</h3>
+                    <div class="specs">
+                        <span>FDM 3D Printer</span>
+                        <span>Build Volume: 220x220x250mm</span>
+                        <span>0.05mm Resolution</span>
+                        <span>Filament Detection</span>
+                    </div>
+                    <div class="rating">★★★★★ (18)</div>
+                    <p class="price">P24, 999.00 <span class="old-price">P27, 499.00</span></p>
+                    <p class="description">Professional-grade 3D printer with large build volume and high precision. Perfect for makers, engineers, and educators.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Printer 8 -->
+                <div class="printer-card">
+                    <img src="leserjet-printer.jpg" alt="Label Maker Pro">
+                    <h3>Label Maker Pro L100</h3>
+                    <div class="specs">
+                        <span>Thermal Label Printer</span>
+                        <span>Wireless Connectivity</span>
+                        <span>Multiple Label Sizes</span>
+                        <span>Long Battery Life</span>
+                    </div>
+                    <div class="rating">★★★★☆ (27)</div>
+                    <p class="price">P3, 899.00</p>
+                    <p class="description">Professional label printer for organizing home, office, or warehouse. Create custom labels with easy-to-use mobile app.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="laptop.html">Laptops</a></li>
+                        <li><a href="printers.html">Printers</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>CBD Commercial area<br>First flow, Plot 58417<br>Phone: (267) 712-366-85</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechHaven. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+        
+        // View toggle functionality
+        const gridViewBtn = document.getElementById('grid-view');
+        const listViewBtn = document.getElementById('list-view');
+        const printersView = document.getElementById('printers-view');
+        
+        gridViewBtn.addEventListener('click', function() {
+            printersView.classList.remove('printer-list');
+            printersView.classList.add('printer-grid');
+            gridViewBtn.classList.add('active');
+            listViewBtn.classList.remove('active');
+        });
+        
+        listViewBtn.addEventListener('click', function() {
+            printersView.classList.remove('printer-grid');
+            printersView.classList.add('printer-list');
+            listViewBtn.classList.add('active');
+            gridViewBtn.classList.remove('active');
+        });
+    </script>
+</body>
+</html>  

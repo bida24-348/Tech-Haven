@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops | TechHaven</title>
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="https://via.placeholder.com/40x40" alt="TechHaven Logo">
+                <h1>TechHaven</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="laptop.html" class="active">Laptops</a></li>
+                    <li><a href="printers.html">Printers</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Header -->
+    <section class="category-header">
+        <div class="container">
+            <h2>Laptops</h2>
+        </div>
+    </section>
+
+    <!-- Laptop Categories -->
+    <div class="container">
+        <div class="laptop-categories">
+            <a href="#" class="active">All Laptops</a>
+            <a href="#">Business</a>
+            <a href="#">Gaming</a>
+            <a href="#">Ultrabooks</a>
+            <a href="#">2-in-1 Convertibles</a>
+            <a href="#">Budget</a>
+            <a href="#">Premium</a>
+            <a href="#">Student</a>
+        </div>
+    </div>
+
+    <!-- Laptops Controls -->
+    <div class="container">
+        <div class="category-controls">
+            <div class="view-options">
+                <button class="active" id="grid-view"><i class="fas fa-th"></i></button>
+                <button id="list-view"><i class="fas fa-list"></i></button>
+            </div>
+        </div>
+
+        <!-- Laptops Container -->
+        <div class="laptops-container">
+            <div class="laptop-grid" id="laptops-view">
+                <!-- Laptop 1 -->
+                <div class="laptop-card">
+                    <img src="ultrapro-15.jpg" alt="UltraBook Pro">
+                    <h3>UltraBook Pro 15"</h3>
+                    <div class="specs">
+                        <span>Intel Core i7-1165G7</span>
+                        <span>16GB RAM | 512GB SSD</span>
+                        <span>15.6" FHD IPS Display</span>
+                    </div>
+                    <div class="rating">★★★★☆ (24)</div>
+                    <p class="price">P24, 799.00 <span class="old-price">P25, 999.00</span></p>
+                    <p class="description">The UltraBook Pro combines power and portability with its 11th Gen Intel Core processor and lightweight aluminum chassis. Perfect for professionals who need performance on the go.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Laptop 2 -->
+                <div class="laptop-card">
+                    <img src="gaming-laptop2.jpg" alt="Nitro Gaming Laptop">
+                    <h3>Nitro Gaming Laptop</h3>
+                    <div class="specs">
+                        <span>Intel Core i7-11800H</span>
+                        <span>16GB RAM | 1TB SSD</span>
+                        <span>15.6" 144Hz FHD Display</span>
+                        <span>NVIDIA RTX 3060</span>
+                    </div>
+                    <div class="rating">★★★★★ (36)</div>
+                    <p class="price">P21, 999.00 <span class="old-price">P20, 299.00</span></p>
+                    <p class="description">Dominate the competition with this powerful gaming laptop featuring a high-refresh-rate display and dedicated graphics for smooth gameplay.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Laptop 3 -->
+                <div class="laptop-card">
+                    <img src="zenbook-laptop.jpg" alt="ZenBook Flip">
+                    <h3>ZenBook Flip 14"</h3>
+                    <div class="specs">
+                        <span>Intel Core i5-1135G7</span>
+                        <span>8GB RAM | 256GB SSD</span>
+                        <span>14" Touchscreen 2-in-1</span>
+                    </div>
+                    <div class="rating">★★★★☆ (18)</div>
+                    <p class="price">P12, 299.00 <span class="old-price">P13, 539.00</span></p>
+                    <p class="description">Versatile 2-in-1 laptop that transforms between laptop and tablet modes with a responsive touchscreen and premium design.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Laptop 4 -->
+                <div class="laptop-card">
+                    <img src="chromebook-laptop.jpg" alt="Chromebook Plus">
+                    <h3>Chromebook Plus</h3>
+                    <div class="specs">
+                        <span>Intel Core i3-10110U</span>
+                        <span>8GB RAM | 128GB SSD</span>
+                        <span>14" FHD Touchscreen</span>
+                    </div>
+                    <div class="rating">★★★★☆ (42)</div>
+                    <p class="price">P15, 500.00 <span class="old-price">P17, 000.00</span></p>
+                    <p class="description">Lightweight and secure Chromebook with Google integration, perfect for students and everyday computing.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Laptop 5 -->
+                <div class="laptop-card">
+                    <img src="workstation-laptop.jpg" alt="Workstation Pro">
+                    <h3>Workstation Pro 17"</h3>
+                    <div class="specs">
+                        <span>Intel Xeon W-10855M</span>
+                        <span>32GB RAM | 1TB SSD</span>
+                        <span>17.3" 4K UHD Display</span>
+                        <span>NVIDIA Quadro RTX 3000</span>
+                    </div>
+                    <div class="rating">★★★★★ (12)</div>
+                    <p class="price">P19, 999.00 <span class="old-price">P21, 199.00</span></p>
+                    <p class="description">Professional workstation laptop designed for engineers, architects, and content creators who demand maximum performance.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Laptop 6 -->
+                <div class="laptop-card">
+                    <img src="Ryzen 7-laptop.jpg" alt="Swift Thin & Light">
+                    <h3>Swift Thin & Light</h3>
+                    <div class="specs">
+                        <span>AMD Ryzen 7 5700U</span>
+                        <span>16GB RAM | 512GB SSD</span>
+                        <span>14" FHD IPS Display</span>
+                    </div>
+                    <div class="rating">★★★★★ (28)</div>
+                    <p class="price">P21, 999.99</p>
+                    <p class="description">Ultra-portable laptop with AMD power in a sleek package weighing just 2.6 lbs, with all-day battery life.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Laptop 7 -->
+                <div class="laptop-card">
+                    <img src="intel-core.jpg" alt="Student Essential">
+                    <h3>Student Essential</h3>
+                    <div class="specs">
+                        <span>Intel Core i3-1115G4</span>
+                        <span>8GB RAM | 256GB SSD</span>
+                        <span>15.6" HD Display</span>
+                    </div>
+                    <div class="rating">★★★★☆ (35)</div>
+                    <p class="price">P15, 499.99 <span class="old-price">$549.99</span></p>
+                    <p class="description">Affordable laptop with all the essentials for schoolwork, featuring a durable design and long battery life.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Laptop 8 -->
+                <div class="laptop-card">
+                    <img src="core-i9.webp" alt="Creator Edition">
+                    <h3>Creator Edition 16"</h3>
+                    <div class="specs">
+                        <span>Intel Core i9-11900H</span>
+                        <span>32GB RAM | 2TB SSD</span>
+                        <span>16" 4K OLED Display</span>
+                        <span>NVIDIA RTX 3070</span>
+                    </div>
+                    <div class="rating">★★★★★ (19)</div>
+                    <p class="price">P14, 799.99</p>
+                    <p class="description">Premium laptop for creative professionals with stunning OLED display and powerful specs for video editing, 3D rendering, and more.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="laptop.html">Laptops</a></li>
+                        <li><a href="printers.html">Printers</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>CBD Commercial area<br>First flow, Plot 58417<br>Phone: (267) 712-366-85</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechHaven. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+        
+        // View toggle functionality
+        const gridViewBtn = document.getElementById('grid-view');
+        const listViewBtn = document.getElementById('list-view');
+        const laptopsView = document.getElementById('laptops-view');
+        
+        gridViewBtn.addEventListener('click', function() {
+            laptopsView.classList.remove('laptop-list');
+            laptopsView.classList.add('laptop-grid');
+            gridViewBtn.classList.add('active');
+            listViewBtn.classList.remove('active');
+        });
+        
+        listViewBtn.addEventListener('click', function() {
+            laptopsView.classList.remove('laptop-grid');
+            laptopsView.classList.add('laptop-list');
+            listViewBtn.classList.add('active');
+            gridViewBtn.classList.remove('active');
+        });
+        
+       
+    </script>
+</body>
+</html>

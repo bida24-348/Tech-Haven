@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories | TechHaven</title>
+    <link rel="stylesheet" href="accesories.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="https://via.placeholder.com/40x40" alt="TechHaven Logo">
+                <h1>TechHaven</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="laptop.html">Laptops</a></li>
+                    <li><a href="printers.html">Printers</a></li>
+                    <li><a href="accessories.html" class="active">Accessories</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Header -->
+    <section class="category-header">
+        <div class="container">
+            <h2>Accessories</h2>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Accessories</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Accessory Categories -->
+    <div class="container">
+        <div class="accessory-categories">
+            <a href="#" class="active">All Accessories</a>
+            <a href="#">Keyboards & Mice</a>
+            <a href="#">Monitors</a>
+            <a href="#">Headphones</a>
+            <a href="#">Docks & Hubs</a>
+            <a href="#">Bags & Cases</a>
+            <a href="#">Cables & Adapters</a>
+            <a href="#">Power Solutions</a>
+        </div>
+    </div>
+
+    <!-- Accessories Controls -->
+    <div class="container">
+        <div class="category-controls">
+            <div class="view-options">
+                <button class="active" id="grid-view"><i class="fas fa-th"></i></button>
+                <button id="list-view"><i class="fas fa-list"></i></button>
+            </div>
+        </div>
+
+        <!-- Accessories Container -->
+        <div class="accessories-container">
+            <div class="accessory-grid" id="accessories-view">
+                <!-- Accessory 1 -->
+                <div class="accessory-card">
+                    <img src="wireless keyboard.jpg" alt="Pro Wireless Keyboard">
+                    <h3>Pro Wireless Keyboard</h3>
+                    <div class="specs">
+                        <span>Bluetooth 5.0</span>
+                        <span>Backlit Keys</span>
+                        <span>Ergonomic Design</span>
+                        <span>Up to 2 years battery</span>
+                    </div>
+                    <div class="rating">★★★★★ (128)</div>
+                    <p class="price">P1, 299.00 <span class="old-price">P1, 599.00</span></p>
+                    <p class="description">Premium wireless keyboard with comfortable ergonomic design and responsive keys. Features adjustable backlighting and multi-device pairing capability.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Accessory 2 -->
+                <div class="accessory-card">
+                    <img src="gaming mouse.jpg" alt="Gaming Mouse X7">
+                    <h3>Gaming Mouse X7</h3>
+                    <div class="specs">
+                        <span>16000 DPI Optical Sensor</span>
+                        <span>7 Programmable Buttons</span>
+                        <span>RGB Lighting</span>
+                        <span>Braided Cable</span>
+                    </div>
+                    <div class="rating">★★★★☆ (94)</div>
+                    <p class="price">P899.00</p>
+                    <p class="description">High-performance gaming mouse with precision tracking and customizable RGB lighting. Ergonomic design for comfortable extended use.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Accessory 3 -->
+                <div class="accessory-card">
+                    <img src="monitor.jpg" alt="UltraWide Monitor 34">
+                    <h3>UltraWide Monitor 34"</h3>
+                    <div class="specs">
+                        <span>34" 3440x1440 Resolution</span>
+                        <span>144Hz Refresh Rate</span>
+                        <span>IPS Panel</span>
+                        <span>AMD FreeSync</span>
+                    </div>
+                    <div class="rating">★★★★★ (76)</div>
+                    <p class="price">P24, 999.00 <span class="old-price">P27, 499.00</span></p>
+                    <p class="description">Immersive ultrawide curved monitor with stunning color accuracy and smooth gameplay performance. Perfect for productivity and gaming.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Accessory 4 -->
+                <div class="accessory-card">
+                    <img src="wireless-headphone.jpg" alt="Noise Cancelling Headphones">
+                    <h3>Noise Cancelling Headphones</h3>
+                    <div class="specs">
+                        <span>Active Noise Cancellation</span>
+                        <span>30-hour Battery Life</span>
+                        <span>Bluetooth 5.2</span>
+                        <span>Built-in Mic</span>
+                    </div>
+                    <div class="rating">★★★★★ (112)</div>
+                    <p class="price">P5, 499.00</p>
+                    <p class="description">Premium over-ear headphones with industry-leading noise cancellation technology. Crystal clear audio for music and calls.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Accessory 5 -->
+                <div class="accessory-card">
+                    <img src="type C 8 in 1.jpg" alt="USB-C 8-in-1 Hub">
+                    <h3>USB-C 8-in-1 Hub</h3>
+                    <div class="specs">
+                        <span>4K HDMI Output</span>
+                        <span>3x USB 3.0 Ports</span>
+                        <span>SD/TF Card Readers</span>
+                        <span>100W PD Charging</span>
+                    </div>
+                    <div class="rating">★★★★☆ (87)</div>
+                    <p class="price">P1, 899.00 <span class="old-price">P2, 199.00</span></p>
+                    <p class="description">Expand your laptop's connectivity with this versatile USB-C hub. Compact design with all essential ports for productivity.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Accessory 6 -->
+                <div class="accessory-card">
+                    <img src="laptop backpack.jpg" alt="Pro Laptop Backpack">
+                    <h3>Pro Laptop Backpack</h3>
+                    <div class="specs">
+                        <span>Fits up to 17" Laptop</span>
+                        <span>Water-Resistant</span>
+                        <span>USB Charging Port</span>
+                        <span>Anti-Theft Design</span>
+                    </div>
+                    <div class="rating">★★★★★ (65)</div>
+                    <p class="price">P2, 299.00</p>
+                    <p class="description">Professional backpack with dedicated laptop compartment and smart organization features. Built with durable, water-resistant materials.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Accessory 7 -->
+                <div class="accessory-card">
+                    <img src="1tb ssd.jpg" alt="Portable SSD 1TB">
+                    <h3>Portable SSD 1TB</h3>
+                    <div class="specs">
+                        <span>1050MB/s Read Speed</span>
+                        <span>Shock Resistant</span>
+                        <span>USB 3.2 Gen 2</span>
+                        <span>Compact & Lightweight</span>
+                    </div>
+                    <div class="rating">★★★★★ (143)</div>
+                    <p class="price">P3, 999.00 <span class="old-price">P4, 499.00</span></p>
+                    <p class="description">Ultra-fast portable SSD with blazing transfer speeds. Perfect for professionals who need reliable high-capacity storage on the go.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Accessory 8 -->
+                <div class="accessory-card">
+                    <img src="powerbank.avif" alt="100W Power Bank">
+                    <h3>100W Power Bank</h3>
+                    <div class="specs">
+                        <span>25000mAh Capacity</span>
+                        <span>USB-C PD 100W</span>
+                        <span>4 Output Ports</span>
+                        <span>Fast Charging</span>
+                    </div>
+                    <div class="rating">★★★★☆ (58)</div>
+                    <p class="price">P2, 599.00</p>
+                    <p class="description">High-capacity power bank that can charge laptops, tablets, and phones simultaneously. Powerful enough for professional use.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="laptop.html">Laptops</a></li>
+                        <li><a href="printers.html">Printers</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                         <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>CBD Commercial area<br>First flow, Plot 58417<br>Phone: (267) 712-366-85</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechHaven. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+        
+        // View toggle functionality
+        const gridViewBtn = document.getElementById('grid-view');
+        const listViewBtn = document.getElementById('list-view');
+        const accessoriesView = document.getElementById('accessories-view');
+        
+        gridViewBtn.addEventListener('click', function() {
+            accessoriesView.classList.remove('accessory-list');
+            accessoriesView.classList.add('accessory-grid');
+            gridViewBtn.classList.add('active');
+            listViewBtn.classList.remove('active');
+        });
+        
+        listViewBtn.addEventListener('click', function() {
+            accessoriesView.classList.remove('accessory-grid');
+            accessoriesView.classList.add('accessory-list');
+            listViewBtn.classList.add('active');
+            gridViewBtn.classList.remove('active');
+        });
+    </script>
+</body>
+</html>

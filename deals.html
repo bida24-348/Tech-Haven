@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deals | TechHaven</title>
+    <link rel="stylesheet" href="deals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="https://via.placeholder.com/40x40" alt="TechHaven Logo">
+                <h1>TechHaven</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="laptop.html">Laptops</a></li>
+                    <li><a href="printers.html">Printers</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="deals.html" class="active">Deals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Header -->
+    <section class="category-header">
+        <div class="container">
+            <h2>Hot Deals</h2>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Deals</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Flash Sale Banner -->
+    <div class="container">
+        <div class="deal-banner">
+            <h3>FLASH SALE ENDING SOON!</h3>
+            <p>Huge discounts on select items - Limited time only!</p>
+            <div class="countdown">
+                <span id="hours">12</span>
+                <span id="minutes">45</span>
+                <span id="seconds">30</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deal Categories -->
+    <div class="container">
+        <div class="deal-categories">
+            <a href="#" class="active">All Deals</a>
+            <a href="#">Today's Deals</a>
+            <a href="#">Weekend Specials</a>
+            <a href="#">Clearance</a>
+            <a href="#">Bundle Offers</a>
+            <a href="#">Student Discounts</a>
+        </div>
+    </div>
+
+    <!-- Deals Controls -->
+    <div class="container">
+        <div class="category-controls">
+            <div class="view-options">
+                <button class="active" id="grid-view"><i class="fas fa-th"></i></button>
+                <button id="list-view"><i class="fas fa-list"></i></button>
+            </div>
+        </div>
+
+        <!-- Deals Container -->
+        <div class="deals-container">
+            <div class="deal-grid" id="deals-view">
+                <!-- Deal 1 -->
+                <div class="deal-card">
+                    <span class="deal-badge">50% OFF</span>
+                    <img src="nitro-gaming-laptop.jpg" alt="Gaming Laptop Deal">
+                    <h3>Nitro Gaming Laptop</h3>
+                    <div class="specs">
+                        <span>Intel Core i7-11800H</span>
+                        <span>16GB RAM | 1TB SSD</span>
+                        <span>15.6" 144Hz FHD Display</span>
+                        <span>NVIDIA RTX 3060</span>
+                    </div>
+                    <div class="rating">★★★★★ (36)</div>
+                    <p class="price">P21, 999.00 <span class="old-price">P43, 999.00</span></p>
+                    <span class="discount">Save P22,000!</span>
+                    <p class="description">Limited time offer on this powerful gaming laptop featuring a high-refresh-rate display and dedicated graphics for smooth gameplay.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Deal 2 -->
+                <div class="deal-card">
+                    <span class="deal-badge">BUNDLE</span>
+                    <img src="printer4.jpg" alt="Printer Bundle">
+                    <h3>Office Pro Bundle</h3>
+                    <div class="specs">
+                        <span>Laser Printer + 2 Toners</span>
+                        <span>Wireless Keyboard & Mouse</span>
+                        <span>1TB External HDD</span>
+                        <span>All cables included</span>
+                    </div>
+                    <div class="rating">★★★★☆ (28)</div>
+                    <p class="price">P8, 499.00 <span class="old-price">P12, 799.00</span></p>
+                    <span class="discount">Save P4,300!</span>
+                    <p class="description">Complete office setup bundle with everything you need to get productive. Limited stock available.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <!-- Deal 3 -->
+                <div class="deal-card">
+                    <span class="deal-badge">CLEARANCE</span>
+                    <img src="headphones-wireless.jpg" alt="Wireless Headphones">
+                    <h3>Premium Wireless Headphones</h3>
+                    <div class="specs">
+                        <span>Active Noise Cancelling</span>
+                        <span>30-hour Battery</span>
+                        <span>Bluetooth 5.0</span>
+                        <span>Built-in Mic</span>
+                    </div>
+                    <div class="rating">★★★★★ (112)</div>
+                    <p class="price">P3, 999.00 <span class="old-price">P7, 499.00</span></p>
+                    <span class="discount">Save P3,500!</span>
+                    <p class="description">Premium over-ear headphones with industry-leading noise cancellation technology. While supplies last!</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <div class="deal-card">
+                    <span class="deal-badge">STUDENT</span>
+                    <img src="intel-core.jpg" alt="Student Laptop">
+                    <h3>Student Essential Laptop</h3>
+                    <div class="specs">
+                        <span>Intel Core i3-1115G4</span>
+                        <span>8GB RAM | 256GB SSD</span>
+                        <span>15.6" HD Display</span>
+                        <span>Windows 11</span>
+                    </div>
+                    <div class="rating">★★★★☆ (35)</div>
+                    <p class="price">P14, 499.99 <span class="old-price">P17, 999.99</span></p>
+                    <span class="discount">Save P3,500!</span>
+                    <p class="description">Special student pricing on this affordable laptop with all the essentials for schoolwork.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <div class="deal-card">
+                    <span class="deal-badge">FLASH</span>
+                    <img src="1tb ssd.jpg" alt="Portable SSD">
+                    <h3>Portable SSD 1TB</h3>
+                    <div class="specs">
+                        <span>1050MB/s Read Speed</span>
+                        <span>Shock Resistant</span>
+                        <span>USB 3.2 Gen 2</span>
+                        <span>Compact & Lightweight</span>
+                    </div>
+                    <div class="rating">★★★★★ (143)</div>
+                    <p class="price">P2, 999.00 <span class="old-price">P4, 499.00</span></p>
+                    <span class="discount">Save P1,500!</span>
+                    <p class="description">Flash sale on this ultra-fast portable SSD with blazing transfer speeds.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <div class="deal-card">
+                    <span class="deal-badge">30% OFF</span>
+                    <img src="keyboard+mouse.avif" alt="Keyboard & Mouse">
+                    <h3>Wireless Keyboard & Mouse Combo</h3>
+                    <div class="specs">
+                        <span>Ergonomic Design</span>
+                        <span>2.4GHz Wireless</span>
+                        <span>3-Year Battery Life</span>
+                        <span>Silent Click</span>
+                    </div>
+                    <div class="rating">★★★★☆ (87)</div>
+                    <p class="price">P1, 399.00 <span class="old-price">P1, 999.00</span></p>
+                    <span class="discount">Save P600!</span>
+                    <p class="description">Premium wireless keyboard and mouse combo at a special discounted price.</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                <div class="deal-card">
+                    <span class="deal-badge">LAST CHANCE</span>
+                    <img src="printer-1.jpg" alt="3D Printer">
+                    <h3>3D Creator Pro 3DP200</h3>
+                    <div class="specs">
+                        <span>FDM 3D Printer</span>
+                        <span>Build Volume: 220x220x250mm</span>
+                        <span>0.05mm Resolution</span>
+                        <span>Filament Detection</span>
+                    </div>
+                    <div class="rating">★★★★★ (18)</div>
+                    <p class="price">P19, 999.00 <span class="old-price">P27, 499.00</span></p>
+                    <span class="discount">Save P7,500!</span>
+                    <p class="description">Final clearance on this professional-grade 3D printer with large build volume.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="laptop.html">Laptops</a></li>
+                        <li><a href="printers.html">Printers</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                         <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>CBD Commercial area<br>First flow, Plot 58417<br>Phone: (267) 712-366-85</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechHaven. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+        
+        // View toggle functionality
+        const gridViewBtn = document.getElementById('grid-view');
+        const listViewBtn = document.getElementById('list-view');
+        const dealsView = document.getElementById('deals-view');
+        
+        gridViewBtn.addEventListener('click', function() {
+            dealsView.classList.remove('deal-list');
+            dealsView.classList.add('deal-grid');
+            gridViewBtn.classList.add('active');
+            listViewBtn.classList.remove('active');
+        });
+        
+        listViewBtn.addEventListener('click', function() {
+            dealsView.classList.remove('deal-grid');
+            dealsView.classList.add('deal-list');
+            listViewBtn.classList.add('active');
+            gridViewBtn.classList.remove('active');
+        });
+        
+        // Countdown timer
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            
+            const diff = endOfDay - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('hours').textContent = String(Math.floor(hours)).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+        }
+        
+        // Update every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown(); // Initial call
+    </script>
+</body>
+</html>
